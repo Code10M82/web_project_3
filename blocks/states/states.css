@@ -1,0 +1,19 @@
+.states__maine {
+  grid-area: maine;
+}
+
+.states__new-hamp {
+  grid-area: new-hamp;
+}
+
+.states__new-york {
+  grid-area: new-york;
+}
+
+.states__erie {
+  grid-area: erie;
+}
+
+.states__ohio {
+  grid-area: ohio;
+}

@@ -1,0 +1,19 @@
+@import url(../header/__title/header__title.css);
+@import url(../header/__subtitle/header__subtitle.css);
+@import url(../header/__logo/header__logo.css);
+@import url(../header/__image/header__image.css);
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+
+
+
+
+
+
