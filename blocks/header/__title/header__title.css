@@ -1,8 +1,9 @@
 .header__title {
   font-size: 96px;
   line-height: 100px;
-  width: 60%;
+  width: 70%;
   text-align: center;
-  margin: 20px 0 15px;
-  letter-spacing: .5px;
+  letter-spacing: 1.5px;
+  margin: 27px 0 0 4px;
+  padding: 0;
 }

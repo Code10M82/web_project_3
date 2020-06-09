@@ -1,7 +1,7 @@
 .header__brief {
   align-self: flex-start;
-  padding-left: 115px;
   margin-top: 10px;
+  margin-left: 20px;
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 1.5px;

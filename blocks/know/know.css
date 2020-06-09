@@ -1,3 +1,12 @@
+@import url(../know/__title/know__title.css);
+@import url(../know/__subtitle/know__subtitle.css);
+@import url(../know/__main-text/know__main-text.css);
+@import url(../know/__info/know__info.css);
+@import url(../know/__span-accent/know__span-accent.css);
+
 .know {
-  grid-area: know;
+  display: flex;
+  width: 80%;
+  justify-items: center;
+  margin: auto;
 }
