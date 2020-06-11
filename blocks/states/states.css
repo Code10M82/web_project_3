@@ -1,19 +1,27 @@
-.states__maine {
-  grid-area: maine;
+@import url(../states/__location/states__location.css);
+@import url(../states/__heading/states__heading.css);
+@import url(../states/__image/states__image.css);
+@import url(../states/__link-cotainer/states__link-container.css);
+@import url(../states/__link-text/states__link-text.css);
+@import url(../states/__link/states__link.css);
+@import url(../states/__text-container/states__text-container.css);
+@import url(../states/__paragraph/states__paragaph.css);
+@import url(../states/__paragraph/_theme/states__paragraph_theme-small.css);
+
+.states {
+  width: 80%;
+  margin: auto;
+  margin-top: 85px;
 }
 
-.states__new-hamp {
-  grid-area: new-hamp;
-}
 
-.states__new-york {
-  grid-area: new-york;
-}
 
-.states__erie {
-  grid-area: erie;
-}
 
-.states__ohio {
-  grid-area: ohio;
-}
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+.states__location {
+  margin: 65px 0 0 18px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .5fr 2.5fr;
+  grid-gap: 32px 5px;
+  grid-template-areas: 
+    "heading link"
+    "image text";
+  padding-right: 12px;
+}

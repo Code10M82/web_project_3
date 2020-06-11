@@ -1,0 +1,4 @@
+.states__link-container {
+  grid-area: link;
+  align-self: self-end;
+}
