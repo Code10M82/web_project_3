@@ -1,0 +1,10 @@
+.route__subheading {
+  width: 25%;
+  font-size: 18px;
+  line-height: 22px;
+  align-self: center;
+  opacity: 100%;
+  z-index: 2;
+  margin: 0 auto auto;
+  text-align: center;
+}

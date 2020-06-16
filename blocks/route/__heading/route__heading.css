@@ -1,0 +1,8 @@
+.route__heading {
+  font-size: 72px;
+  line-height: 76px;
+  margin: auto auto 0 auto;
+  padding-left: 90px;
+  width: 60%;
+  font-weight: bold;
+}
