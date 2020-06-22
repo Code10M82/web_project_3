@@ -2,11 +2,10 @@
 @import url(../route/__subheading/route__subheading.css);
 
 .route {
-  margin-top: 100px;
   background-image: url(../../images/route66.png);
   width: 1184px;
   height: 740px;
-  margin: auto;
+  margin: 100px auto auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
