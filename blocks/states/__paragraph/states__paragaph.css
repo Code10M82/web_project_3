@@ -1,9 +1,9 @@
 .states__paragraph {
   margin:0;
-  padding: 0;
+  grid-area: text;
+  padding: .85% 0 3% .5%;
   font-size: 18px;
-  line-height: 31px;
-  padding-bottom: 30px;
-  word-spacing: 1px;
+  line-height: 30.5px;
+  word-spacing: .58px;
   align-self: flex-start;
 }

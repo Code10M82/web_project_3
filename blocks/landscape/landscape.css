@@ -1,9 +1,8 @@
 .landscape {
   width: 90%;
   display: grid;
-  grid-gap: 16px 16px;
-  margin: 94px auto 0px;
-  padding-right: 30px;
-  /* padding-bottom: 5px; */
+  grid-gap: 2.5% 1.4%;
+  margin: 7.3% auto 0;
+  padding-right: 2.5%;
   grid-template-columns: repeat(4, 1fr);
 }

@@ -1,0 +1,5 @@
+.header__languages {
+  display: flex;
+  align-self: flex-end;
+  padding-right: 3.5%;
+}

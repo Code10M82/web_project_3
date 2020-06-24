@@ -1,22 +1,11 @@
+@import url(../footer/__column-links/footer__column-links.css);
+@import url(../footer/__column-link/footer__column-link.css);
+@import url(../footer/__author/footer__author.css);
+
 .footer {
-  width: 90%;
-  margin: 100px auto;
+  width: 93%;
+  margin: auto;
   display: flex;
-}
-
-.footer__columns {
-  /* display: flex; */
-  /* justify-content: space-around; */
-  
-}
-
-.footer__column-link {
-  /* justify-self: left; */
-  text-decoration: none;
-  color: white;
-}
-
-.footer__author {
-  justify-self: flex-end;
-  margin-left: auto;
+  margin-top: 80px;
+  padding-bottom: 15px;
 }
