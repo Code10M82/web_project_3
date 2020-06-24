@@ -5,3 +5,7 @@
   margin-top: 80%;
   letter-spacing: .5px;
 }
+
+.header__language:hover {
+  opacity: 60%;
+}

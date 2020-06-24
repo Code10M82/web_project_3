@@ -12,3 +12,7 @@
   align-content: center;
   opacity: 80%;
 }
+
+.route:hover {
+  opacity: 30%;
+}

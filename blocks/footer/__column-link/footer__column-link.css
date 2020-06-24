@@ -5,3 +5,7 @@
   margin-right: 6%;
   text-align: center;
 }
+
+.footer__column-link:hover {
+  opacity: 60%;
+}

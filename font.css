@@ -18,22 +18,3 @@
   font-weight: 900;
   font-style: bold;
 }
-
-@font-face {
-  font-family: 'Inter';
-  src: url('Inter-ExtraBold.eot') format('embedded-opentype'),
-      url('Inter-ExtraBold.woff2') format('woff2'),
-      url('Inter-ExtraBold.woff') format('woff'),
-      url('Inter-ExtraBold.ttf') format('truetype');
-  font-weight: bolder;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("Inter-Black.woff2?v=3.13") format("woff2"),
-       url("Inter-Black.woff?v=3.13") format("woff");
