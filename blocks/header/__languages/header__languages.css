@@ -1,5 +1,22 @@
+/*do not touch matches figma*/
 .header__languages {
   display: flex;
   align-self: flex-end;
-  padding-right: 3.5%;
+  margin-right: 3.5%;
+  margin-top: .5%;
+}
+
+/*do not touch matches figma*/
+@media screen and (max-width: 1024px) {
+  .header__languages {
+    margin-right: 6.2%;
+    margin-top: .8%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__languages {
+    margin-right: 5.5%;
+    margin-top: .2%;
+  }
 }

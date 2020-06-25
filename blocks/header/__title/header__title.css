@@ -1,9 +1,29 @@
 .header__title {
   font-size: 96px;
   line-height: 100px;
-  width: 70%;
+  width: 72%;
   text-align: center;
   letter-spacing: 1.5px;
-  margin: 2.5% 0 0 .5%;
+  margin: 2.4% 0 0 0;
   padding: 0;
+  word-spacing: -5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__title {
+    margin-top: 1.75%;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .header__title {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 777px) {
+  .header__title {
+    width: 100%;
+  }
 }

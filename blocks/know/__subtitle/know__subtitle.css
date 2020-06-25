@@ -5,3 +5,10 @@
   padding: 0;
   width: 70%;
 }
+
+/* DO NOT TOUCH, MATCHES FIGMA*/
+@media screen and (max-width: 1024px) {
+  .know__subtitle {
+    margin-top: 4.3%;
+  }
+}

@@ -8,5 +8,14 @@
   display: flex;
   width: 80%;
   justify-items: center;
-  margin: auto;
+  margin: 8.5% auto 0;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .know {
+    margin-left: 3%;
+  }
 }

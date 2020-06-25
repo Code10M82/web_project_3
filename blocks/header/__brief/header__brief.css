@@ -6,3 +6,9 @@
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
+
+@media screen and (max-height: 1024px) {
+  .header__brief {
+    margin-left: 4.8%;
+  }
+}

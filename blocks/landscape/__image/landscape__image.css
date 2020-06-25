@@ -1,3 +1,15 @@
+.landscape__image {
+  margin: 0;
+  padding: 0;
+}
+
 .landscape__image:hover {
   opacity: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+  .landscape__image {
+    width: 100%;
+    /* margin-left: 1.5% */
+  }
 }
