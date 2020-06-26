@@ -14,3 +14,12 @@
     width: 83.8%;
   }
 }
+
+/*matches figma*/
+@media screen and (max-width: 320px) {
+  .know__main-text {
+    width: 112%;
+    margin-top: 12%;
+    margin-left: 2.5%;
+  }
+}

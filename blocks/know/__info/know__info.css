@@ -11,3 +11,9 @@
     margin-top: 4.2%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .know__info {
+    margin-top: 14.9%;
+    margin-left: 2.5%;
+  }

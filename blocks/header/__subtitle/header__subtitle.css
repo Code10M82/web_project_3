@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1204px) {
   .header__subtitle {
-    width: 70.6%;
+    width: 66.1%;
   }
 }
 
@@ -63,8 +63,13 @@
   }
 }
 
+/*cannot get the word 'from' to drop down to next level without throwing everything out of whack*/
 @media screen and (max-width: 320px) {
   .header__subtitle {
-    width: 53.957%;
+    width: 69.153%;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 4.5%;
+    margin-left: 12%;
   }
 }

@@ -9,7 +9,7 @@
   overflow: hidden;
   margin: auto;
   color: green;
-  object-fit: contain;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,8 +18,14 @@
   }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
   .page {
     min-width: 321px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    min-width: 250px;
   }
 }

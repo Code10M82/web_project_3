@@ -2,9 +2,8 @@
 
 .landscape {
   width: 90%;
-  height: auto;
   display: grid;
-  grid-gap: 1.9% 1.7%;
+  grid-gap: 1.9% 1.4%;
   margin: 7.3% auto 0;
   padding-right: 2.5%;
   grid-template-columns: repeat(4, 1fr);
@@ -22,3 +21,22 @@
 }
 
 
+@media screen and (max-width: 768px) {
+  .landscape {
+    margin-top: 9.1%;
+    margin-left: 4.6%;
+    display: grid;
+    /* grid-gap: 1.9% 1.7%; */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .landscape {
+    margin-top: 20.5%;
+    margin-left: 4.6%;
+    display: grid;
+    grid-gap: .4% 1.7%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

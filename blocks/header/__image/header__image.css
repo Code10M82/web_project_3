@@ -18,3 +18,10 @@
     margin-top: 7.2%;
   }
 }
+
+/*matches figma*/
+@media screen and (max-width: 320px) {
+  .header__image {
+    margin-top: 12%;
+  }
+}

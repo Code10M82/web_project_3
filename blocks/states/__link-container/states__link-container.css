@@ -1,5 +1,4 @@
 .states__link-container {
   grid-area: link;
   margin: 0 0 1.9% .4%;
-  align-self: self-end;
 }

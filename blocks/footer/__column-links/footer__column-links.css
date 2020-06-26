@@ -1,5 +1,7 @@
 .footer__column-links {
   padding-top: 1%;
   padding-left: .2%;
-  width: 50%;
+  width: 27%;
+  display: flex;
+  justify-content: flex-start;
 }

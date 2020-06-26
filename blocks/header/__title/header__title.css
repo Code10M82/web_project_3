@@ -9,6 +9,13 @@
   word-spacing: -5px;
 }
 
+@media screen and (max-width: 1176px) {
+  .header__title {
+    /* margin-top: 1.75%; */
+    width: 77%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header__title {
     margin-top: 1.75%;
@@ -16,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 904px) {
   .header__title {
     width: 88%;
   }
@@ -25,5 +32,17 @@
 @media screen and (max-width: 777px) {
   .header__title {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__title {
+    font-size: 40px;
+    line-height: 44px;
+    margin-top: 10.5%;
+    margin-left: 1.5%;
+    width: 95%;
+    /* letter-spacing: -.025px; */
+    
   }
 }
