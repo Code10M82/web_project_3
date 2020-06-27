@@ -7,10 +7,15 @@
   margin: 7.3% auto 0;
   padding-right: 2.5%;
   grid-template-columns: repeat(4, 1fr);
-  
 }
 
-/*matches figma*/
+@media screen and (max-width: 1235px) {
+  .landscape {
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 10%;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .landscape {
     margin-top: 9.1%;
@@ -21,13 +26,12 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .landscape {
-    margin-top: 9.1%;
-    margin-left: 4.6%;
-    display: grid;
-    /* grid-gap: 1.9% 1.7%; */
+    margin-top: 11.6%;
+    margin-left: 3.1%;
+    width: 93.5%;
+    grid-gap: 1% 2.8%;
     grid-template-columns: repeat(2, 1fr);
   }
 }

@@ -3,7 +3,6 @@
   padding: 0;
   font-size: 16px;
   line-height: 26.5px;
-  /* word-wrap: break-word; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -11,5 +10,22 @@
     width: 88%;
     margin-left: 0;
     margin-top: 4.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .states__paragraph_theme-small {
+    width: 93%;
+    line-height: 26px;
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .states__paragraph_theme-small {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 8%;
+    margin-bottom: 2%;
   }
 }

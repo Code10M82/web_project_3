@@ -11,7 +11,6 @@
 
 @media screen and (max-width: 1176px) {
   .header__title {
-    /* margin-top: 1.75%; */
     width: 77%;
   }
 }
@@ -35,6 +34,27 @@
   }
 }
 
+@media screen and (max-width: 680px) {
+  .header__title {
+    font-size: 65px;
+    line-height: 70px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .header__title {
+    width: 93.6%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__title {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header__title {
     font-size: 40px;
@@ -42,7 +62,5 @@
     margin-top: 10.5%;
     margin-left: 1.5%;
     width: 95%;
-    /* letter-spacing: -.025px; */
-    
   }
 }

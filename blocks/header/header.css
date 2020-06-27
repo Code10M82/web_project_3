@@ -15,12 +15,20 @@
   margin: auto;
   height: auto;
 }
+
 @media screen and (max-width: 1138px) {
   .header {
     width: 87%;
   }
 }
+
 @media screen and (max-width: 1024px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
   .header {
     width: 100%;
   }

@@ -22,3 +22,23 @@
     margin-left: 1.5%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .states__location {
+    grid-gap: 6.8% 13%;
+    margin-top: 3.8%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  .states__location {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "heading"
+      "image"
+      "text";
+    grid-gap: 1.8%;
+    margin-left: 0;
+    padding: 0;
+    }
+}

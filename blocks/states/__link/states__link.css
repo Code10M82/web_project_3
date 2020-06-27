@@ -2,9 +2,14 @@
   font-size: 18px;
   line-height: 22px;
   color: #fff;
-  color: green;
 }
 
 .states__link:hover {
   opacity: 60%;
+}
+
+@media screen and (max-width: 320px) {
+  .states__link {
+    display: none;
+  }
 }

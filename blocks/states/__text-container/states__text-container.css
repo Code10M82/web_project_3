@@ -3,5 +3,10 @@
   margin: 0;
   padding: 0;
   color: #fff;
-  color: green;
+}
+
+@media screen and (max-width: 320px) {
+  .states__text-container {
+    text-align: center;
+  }
 }

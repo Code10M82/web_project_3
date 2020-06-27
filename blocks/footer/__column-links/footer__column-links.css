@@ -5,3 +5,10 @@
   display: flex;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__column-links {
+    grid-area: links;
+    flex-direction: column;
+  }
+}

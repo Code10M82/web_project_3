@@ -15,3 +15,21 @@
     margin-bottom: 5%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .states__paragraph {
+    width: 92%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 1.5%;
+    margin-bottom: 5.8%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .states__paragraph {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 4%;
+  }
+}

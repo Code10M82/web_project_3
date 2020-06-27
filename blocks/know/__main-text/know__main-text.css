@@ -9,7 +9,6 @@
   padding: 0;
 }
 
-/*matches figma*/
 @media screen and (max-width: 1024px) {
   .know__main-text {
     width: 83.8%;
@@ -17,11 +16,19 @@
   }
 }
 
-/*matches figma*/
+@media screen and (max-width: 768px) {
+  .know__main-text {
+    margin-left: 0;
+    margin-top: 3.5%;
+    word-spacing: -.5px;
+    width: 79%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .know__main-text {
-    width: 112%;
-    margin-top: 12%;
+    width: 100%;
+    margin-top: 11.5%;
     margin-left: 2.5%;
   }
 }

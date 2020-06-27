@@ -12,8 +12,15 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .know__info {
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .know__info {
-    margin-top: 14.9%;
+    margin-top: 12.5%;
     margin-left: 2.5%;
   }
+}

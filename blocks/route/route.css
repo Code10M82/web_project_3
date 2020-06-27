@@ -26,5 +26,18 @@
     background-size: 100% 82%;
     background-repeat: no-repeat;
   }
-  
+}
+
+@media screen and (max-width: 768px) {
+  .route {
+    margin-top: 7%;
+    height: 580px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .route {
+    height: 243px;
+    margin-top: 20%;
+  }
 }

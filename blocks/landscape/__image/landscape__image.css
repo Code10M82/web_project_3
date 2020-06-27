@@ -8,14 +8,18 @@
   opacity: 30%;
 }
 
+
 @media screen and (max-width: 1024px) {
   .landscape__image {
     width: 101%;
   }
 }
 
-/*matches figma*/
 @media screen and (max-width: 320px) {
   .landscape__image {
-    width: 100.5%;
+    width: 97%;
   }
+  .landscape__image:hover {
+    opacity: 100%;
+  }
+}

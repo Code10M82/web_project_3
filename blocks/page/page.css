@@ -7,25 +7,5 @@
   height: auto;
   font-family: 'Inter', 'Arial', sans-serif;
   overflow: hidden;
-  margin: auto;
-  color: green;
-  margin-top: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .page {
-    min-width: 769px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    min-width: 321px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    min-width: 250px;
-  }
+  margin: 0 auto auto;
 }
