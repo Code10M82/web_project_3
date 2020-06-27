@@ -3,4 +3,13 @@
   padding: 0;
   font-size: 16px;
   line-height: 26.5px;
+  /* word-wrap: break-word; */
+}
+
+@media screen and (max-width: 1024px) {
+  .states__paragraph_theme-small {
+    width: 88%;
+    margin-left: 0;
+    margin-top: 4.5%;
+  }
 }

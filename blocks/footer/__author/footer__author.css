@@ -5,3 +5,11 @@
   font-size: 14px;
   line-height: 16px;
 }
+
+/*matches figma*/
+@media screen and (max-width: 1024px) {
+  .footer__author{
+    margin-top: 1%;
+    margin-right: 2.3%;
+  }
+}

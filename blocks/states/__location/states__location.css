@@ -10,3 +10,15 @@
     "image text";
   padding-right: 1.5%;
 }
+
+.states__location:first-of-type {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .states__location {
+    grid-template-columns: auto auto;
+    margin-top: 6.7%;
+    margin-left: 1.5%;
+  }
+}

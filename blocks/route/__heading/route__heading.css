@@ -1,10 +1,15 @@
 .route__heading {
   font-size: 72px;
   line-height: 76px;
-  margin: auto auto 0 auto;
-  padding-left: 7%;
-  padding-bottom: 2%;
+  margin: auto auto 2% auto;
   letter-spacing: 1px;
   width: 60%;
   font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .route__heading{
+    margin-top: 27%;
+    width: 70%;
+  }
 }

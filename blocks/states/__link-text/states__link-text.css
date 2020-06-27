@@ -6,3 +6,13 @@
   margin: 9% 0 2%;
   color: green;
 }
+
+@media screen and (max-width: 1024px) {
+  .states__link-text {
+    margin-top: 15%;
+  }
+  .states__link-text_theme-hamp{
+    margin-top: 29%;
+  }
+}
+

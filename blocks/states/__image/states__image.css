@@ -10,3 +10,10 @@
 .states__image:hover {
   opacity: 30%;
 }
+
+@media screen and (max-width: 1024px) {
+  .states__image {
+    width: 95.5%;
+    margin-left: 0;
+  }
+}

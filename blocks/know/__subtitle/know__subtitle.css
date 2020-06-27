@@ -10,6 +10,7 @@
 @media screen and (max-width: 1024px) {
   .know__subtitle {
     margin-top: 4.3%;
+    width: 90%;
   }
 }
 

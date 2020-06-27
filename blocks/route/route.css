@@ -3,16 +3,28 @@
 
 .route {
   background-image: url(../../images/route66.png);
-  width: 1184px;
+  width: 92.5%;
   height: 740px;
+  background-position: center;
+  background-size: 100% 100%;
   margin: 9.8% auto auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  text-align: center;
   opacity: 80%;
 }
 
 .route:hover {
   opacity: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+  .route {
+    width: 100%;
+    background-size: 100% 82%;
+    background-repeat: no-repeat;
+  }
+  
 }

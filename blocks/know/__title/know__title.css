@@ -12,6 +12,7 @@
 @media screen and (max-width: 1024px) {
   .know__title {
     width: 80%;
+    word-spacing: .75px;
   }
 }
 

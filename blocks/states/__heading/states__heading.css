@@ -7,5 +7,12 @@
   grid-area: heading;
   letter-spacing: 1.5px;
   align-self: flex-end;
+  word-break: break-word;
   color: green;
 } 
+
+@media screen and (max-width: 1024px) {
+  .states__heading {
+    margin-top: 11%;
+  }
+}
