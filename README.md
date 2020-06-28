@@ -1,20 +1,12 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+## About
+This is a project about traveling across the US. A guide to great desitnations as you travel across the US. 
 
-**Intro**
+## Technologies Used
+I've made it so all of the elements are displayed correctly on popular screen sizes. I implremented this website from a design in Figma, and then used grid for the first time as well. 
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+## The Future
+Next step is going to be making a dynamic website!
 
-**Figma**
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!

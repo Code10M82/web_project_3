@@ -19,6 +19,12 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  .header__languages {
+    margin-right: 13%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header__languages {
     margin-right: 15.2%;
