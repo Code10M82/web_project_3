@@ -2,22 +2,28 @@
 @import url(../route/__subheading/route__subheading.css);
 
 .route {
-  background-image: url(../../images/route66.png);
   width: 92.5%;
   height: 740px;
-  background-position: center;
-  background-size: 100% 100%;
   margin: 9.8% auto auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   text-align: center;
-  opacity: 80%;
+  position: relative;
 }
 
-.route:hover {
+.route__image:hover {
   opacity: 30%;
+}
+
+.route__image {
+  height: 740px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 70%;
 }
 
 @media screen and (max-width: 1024px) {

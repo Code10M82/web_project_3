@@ -1,30 +1,36 @@
 .header__language {
   font-size: 24px;
   line-height: 28px;
-  margin-top: 80%;
-  letter-spacing: .5px;
+  color: green;
 }
 
 .header__language:first-of-type {
-  margin-right: 23%;
+  margin-right: 19%;
 }
 
-.header__language:hover {
+/* .header__language:hover {
   opacity: 60%;
+} */
+
+@media screen and (max-width: 1024px) {
+  .header__language:first-of-type{
+    margin-right: 17%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .header__language:first-of-type {
-    margin-right: 27%;
+    margin-right: 22%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header__language {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    /* letter-spacing: 1px; */
   }
   .header__language:first-of-type {
-    margin-right: 73%;
+    margin-right: 25%;
   }
 }

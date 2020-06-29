@@ -1,77 +1,78 @@
-.header__subtitle {
+.intro__subtitle {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   width: 61.53%;
   margin: 0;
   padding: 0;
-  margin-top: 2.2%;
+  margin-top: 2.5%;
 }
 
 @media screen and (max-width: 1204px) {
-  .header__subtitle {
+  .intro__subtitle {
     width: 66.1%;
+    margin-top: 2.2%;
   }
 }
 
 @media screen and (max-width: 1138px) {
-  .header__subtitle {
+  .intro__subtitle {
     width: 64.3%;
   }
 }
 
 @media screen and (max-width: 1072px) {
-  .header__subtitle {
+  .intro__subtitle {
     width: 60%;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .header__subtitle {
+  .intro__subtitle {
     width: 60%;
   }
 }
 
 @media screen and (max-width: 964px) {
-  .header__subtitle {
+  .intro__subtitle {
     width: 66.14%;
   }
 }
 
 @media screen and (max-width: 907px) {
-  .header__subtitle {
+  .intro__subtitle {
     width: 70.28%;
   }
 }
 
 @media screen and (max-width: 854px) {
-  .header__subtitle {
+  .intro__subtitle {
     width: 74.62%;
   }
 }
 
 @media screen and (max-width: 804px) {
-  .header__subtitle {
+  .intro__subtitle {
     width: 79.3%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .header__subtitle {
+  .intro__subtitle {
     margin-top: 3.2%;
   }
 }
 
 @media screen and (max-width: 600px){
-  .header__subtitle {
+  .intro__subtitle {
     font-size: 20px;
     line-height: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .header__subtitle {
-    width: 69.15234%;
+  .intro__subtitle {
+    width: 71.5%;
     font-size: 16px;
     line-height: 20px;
     margin-top: 4.5%;
