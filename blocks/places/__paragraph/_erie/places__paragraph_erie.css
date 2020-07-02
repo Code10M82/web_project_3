@@ -1,0 +1,11 @@
+/*ID ID ID ID ID*/
+#places__paragraph_erie {
+  width: 94.5%;
+  border: 1px solid pink;
+}
+
+@media screen and (max-width: 1024px) {
+  #places__paragraph_erie {
+    margin-bottom: 5%;
+  }
+}

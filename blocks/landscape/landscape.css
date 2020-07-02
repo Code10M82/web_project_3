@@ -6,13 +6,14 @@
   grid-gap: 1.9% 1.4%;
   margin: 7.3% auto 0;
   padding-right: 2.5%;
+  padding-bottom: 3%;
   grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 1235px) {
   .landscape {
     grid-template-columns: repeat(3, 1fr);
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
 }
 
@@ -30,6 +31,7 @@
   .landscape {
     margin-top: 11.6%;
     margin-left: 3.1%;
+    padding-bottom: 7%;
     width: 93.5%;
     grid-gap: 1% 2.8%;
     grid-template-columns: repeat(2, 1fr);

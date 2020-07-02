@@ -1,15 +1,18 @@
-.states__link {
+.places__link {
   font-size: 18px;
   line-height: 22px;
   color: #fff;
+  color: green;
+  margin-top: 3.5%;
+  
 }
 
-.states__link:hover {
+.places__link:hover {
   opacity: 60%;
 }
 
 @media screen and (max-width: 320px) {
-  .states__link {
+  .places__link {
     display: none;
   }
 }

@@ -1,22 +1,23 @@
-.states__link-text {
+.places__link-text {
   color: #aaa;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
-  margin: 9% 0 2%;
+  margin: 0;
+  color: green;
 }
 
 @media screen and (max-width: 1024px) {
-  .states__link-text {
+  .places__link-text {
     margin-top: 15%;
   }
-  .states__link-text_theme-hamp{
+  .places__link-text_theme-hamp{
     margin-top: 29%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .states__link-text {
+  .places__link-text {
     display: none;
   }
 }

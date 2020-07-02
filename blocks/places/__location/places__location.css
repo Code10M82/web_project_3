@@ -1,0 +1,40 @@
+@import url(../__location/_maine/places__location_maine.css);
+@import url(../__location/_new-hamp/places__location_new-hamp.css);
+@import url(../__location/_new-york/places__location_new-york.css);
+@import url(../__location/_erie/places__location_erie.css);
+@import url(../__location/_ohio/places__location_ohio.css);
+
+.places__location {
+  margin: auto;
+  margin-left: 11.3%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 35.93% 37.81%%;
+  object-fit: contain;
+  grid-template-rows: .5fr 2.5fr;
+  grid-template-areas: 
+    "heading link"
+    "image text";
+  width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__location {
+    width: 100%;
+    grid-template-columns: 42.97% 44.53%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__location {
+    width: 100%;
+    grid-template-columns: 44.27% 45.83%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__location {
+    width: 100%;
+    grid-template-columns: 100%;
+  }
+}

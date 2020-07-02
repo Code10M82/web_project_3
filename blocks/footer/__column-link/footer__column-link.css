@@ -3,10 +3,18 @@
   color: white;
   font-size: 16px;
   margin-right: 6%;
+  color: lightcoral;
 }
 
 .footer__column-link:hover {
   opacity: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__column-link {
+    margin-right: 7%;
+
+  }
 }
 
 @media screen and (max-width: 768px) {

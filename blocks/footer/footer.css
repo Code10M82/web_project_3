@@ -8,13 +8,14 @@
   display: flex;
   margin-top: 80px;
   padding-bottom: 15px;
+  color: purple;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
     margin: 0;
     padding: 0;
-    margin-top: 2%;
+    margin-top: 8.2%;
     margin-left: 4.8%;
   }
 }

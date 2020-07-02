@@ -1,20 +1,25 @@
 .know__info {
   font-size: 12px;
   line-height: 18px;
-  margin: 3.5% 0 0 2%;
+  width: 53.91%;
+  margin: 2.8% 0 0 2%;
   padding: 0;
   list-style-type: none;
 }
 
 @media screen and (max-width: 1024px) {
   .know__info {
-    margin-top: 4.2%;
+    margin-top: 3.5%;
+    width: 67.38%;
+    margin-left: 1.6%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .know__info {
     margin-left: 0;
+    width: 93.75%;
+    margin-top: 4.6%;
   }
 }
 
@@ -22,5 +27,6 @@
   .know__info {
     margin-top: 12.5%;
     margin-left: 2.5%;
+    width: 90%;
   }
 }

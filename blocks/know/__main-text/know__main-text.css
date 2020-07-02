@@ -1,27 +1,25 @@
 .know__main-text {
-  width: 67%;
+  width: 53.91%;
   text-align: left;
   font-size: 16px;
   line-height: 26px;
-  word-spacing: -.7px;
-  letter-spacing: .1px;
-  margin: 3.2% 0 0 2%;
+  margin: 2.7% 0 0 2%;
   padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .know__main-text {
-    width: 83.8%;
-    margin-top: 4%;
+    width: 67.38%;
+    margin-top: 3.3%;
+    margin-left: 1.6%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .know__main-text {
     margin-left: 0;
-    margin-top: 3.5%;
-    word-spacing: -.5px;
-    width: 79%;
+    margin-top: 4.5%;
+    width: 93.75%;
   }
 }
 

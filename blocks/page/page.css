@@ -7,3 +7,7 @@
   overflow: hidden;
   margin: 0 auto auto;
 }
+
+p {
+  margin: 0;
+}

@@ -1,39 +1,38 @@
-.states__image {
+.places__image {
   grid-area: image;
   margin: 0;
   padding: 0;
   object-fit: contain;
-  margin-left: .7%;
-  margin-top: 1.8%;
+  border: 1px solid yellow;
 }
 
-.states__image:hover {
+.places__image:hover {
   opacity: 30%;
 }
 
 @media screen and (max-width: 1024px) {
-  .states__image {
-    width: 95.5%;
+  .places__image {
+    width: 440px;
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .states__image {
-    width: 125%;
+  .places__image {
+    width: 340px;
     margin-left: 0;
     margin-top: 4%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .states__image {
+  .places__image {
     width: 100%;
     object-fit: cover;
     margin-left: 0;
     text-align: left;
   }
-  .states__image:hover {
+  .places__image:hover {
     opacity: 100%;
   }
 }

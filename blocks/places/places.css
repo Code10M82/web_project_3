@@ -1,0 +1,43 @@
+@import url(../places/__location/places__location.css);
+@import url(../places/__heading/places__heading.css);
+@import url(../places/__heading/_new-york/places__heading_new-york.css);
+@import url(../places/__heading/_erie/places__heading_erie.css);
+@import url(../places/__link-container/places__link-container.css);
+@import url(../places/__link-text/places__link-text.css);
+@import url(../places/__link/places__link.css);
+@import url(../places/__image/places__image.css);
+@import url(../places/__text-container/places__text-container.css);
+@import url(../places/__paragraph/places__paragaph.css);
+
+
+.places {
+  width: 100%;
+  margin-top: 5.2%;
+  border: 1px solid red;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .places {
+    margin: 0;
+    margin-left: 3%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 0;
+    margin-top: 4.5%;
+    margin-left: 1.7%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    margin: 0;
+    margin-top: 35%;
+    width: 100%;
+  }
+}

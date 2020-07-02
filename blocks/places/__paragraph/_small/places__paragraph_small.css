@@ -1,20 +1,22 @@
-.states__paragraph_theme-small {
-  margin: 5% 0 4.2% .5%;
+/*ID ID ID ID ID*/
+
+#places__paragraph_small {
+  margin: 5.9% 0 0 0;
   padding: 0;
   font-size: 16px;
   line-height: 26.5px;
 }
 
 @media screen and (max-width: 1024px) {
-  .states__paragraph_theme-small {
-    width: 88%;
+  #places__paragraph_small {
+    width: 94%;
     margin-left: 0;
-    margin-top: 4.5%;
+    margin-top: 5.5%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .states__paragraph_theme-small {
+  #places__paragraph_small {
     width: 93%;
     line-height: 26px;
     margin-top: 7%;
@@ -22,7 +24,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .states__paragraph_theme-small {
+  #places__paragraph_small {
     text-align: left;
     margin-left: 5%;
     margin-top: 8%;

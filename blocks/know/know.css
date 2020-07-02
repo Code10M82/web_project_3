@@ -6,23 +6,22 @@
 
 .know {
   display: flex;
-  width: 80%;
-  margin: 7% auto 0;
-  height: auto;
+  width: 100%;
+  margin: 7% auto 0 9.5%;
   flex-direction: column;
+  color: green;
 }
 
 @media screen and (max-width: 1024px) {
   .know {
     margin-left: 3%;
-    margin-top: 8.8%;
+    margin-top: 8.5%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .know {
     margin-top: 11%;
-    width: 120%;
   }
 }
 

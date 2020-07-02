@@ -1,0 +1,34 @@
+/*ID ID ID ID ID ID ID*/
+
+#places__location_new-york {
+  margin-top: 7.7%;
+  grid-gap: 7.1% 4%;
+}
+
+@media screen and (max-width: 1024px) {
+  #places__location_new-york {
+    margin-top: 10.3%;
+    margin-left: 1.5%;
+    grid-gap: 7.6% 1.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #places__location_new-york {
+    grid-gap: 6.8% 3%;
+    margin-top: 3.8%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  #places__location_new-york {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "heading"
+      "image"
+      "text";
+    grid-gap: 1.8%;
+    margin-left: 0;
+    padding: 0;
+    }
+}

@@ -1,3 +1,4 @@
+@import url(../route/__image/route__image.css);
 @import url(../route/__heading/route__heading.css);
 @import url(../route/__subheading/route__subheading.css);
 
@@ -17,20 +18,13 @@
   opacity: 30%;
 }
 
-.route__image {
-  height: 740px;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 70%;
-}
+
 
 @media screen and (max-width: 1024px) {
   .route {
     width: 100%;
-    background-size: 100% 82%;
-    background-repeat: no-repeat;
+    height: 640px;
+    margin-top: 11.8%;
   }
 }
 

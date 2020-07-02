@@ -1,0 +1,30 @@
+.route__image {
+  height: 740px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+  .route__image {
+    height: 640px;
+    width: 100%;
+    border: 1px solid yellow;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .route__image {
+    height: 480px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .route__image {
+    height: 200px;
+    width: 100%;
+  }
+}
