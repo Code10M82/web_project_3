@@ -1,9 +1,8 @@
 .route__subheading {
-  width: 25%;
+  width: 320px;
   font-size: 18px;
   line-height: 22px;
   align-self: center;
-  opacity: 100%;
   z-index: 2;
   margin: 0 auto auto;
   text-align: center;
@@ -11,14 +10,12 @@
 
 @media screen and (max-width: 1024px) {
   .route__subheading {
-    width: 30%;
     margin-top: .5%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .route__subheading {
-    width: 40%;
     margin-top: 1.5%;
   }
 }
@@ -27,8 +24,9 @@
   .route__subheading {
     font-size: 14px;
     line-height: 16px;
-    width: 68%;
+    width: 250px;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 4%;
+    margin-bottom: 25%;
   }
 }

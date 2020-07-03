@@ -6,7 +6,6 @@
   width: 60%;
   font-weight: bold;
   z-index: 1;
-  color: purple;
 }
 
 @media screen and (max-width: 1132px) {
@@ -29,14 +28,16 @@
 @media screen and (max-width: 768px) {
   .route__heading{
     width: 90%;
+    margin-top: 21%;
   }
 }
 
 @media screen and (max-width: 700px) {
   .route__heading {
-    width: 100%;
+    width: 50%;
     font-size: 50px;
     line-height: 55px;
+    margin-left: 10%;
   }
 }
 
@@ -44,11 +45,15 @@
   .route__heading {
     font-size: 32px;
     line-height: 35px;
+    width: 288px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .route__heading{
-    margin-top: 24%;
+    margin-top: 27%;
+    margin-left: 5%;
+    width: 288px;
+    letter-spacing: normal;
   }
 }

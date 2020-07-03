@@ -1,23 +1,41 @@
 .landscape__image {
   margin: 0;
   padding: 0;
+  width: 284px;
+  height: 213px;
   object-fit: contain;
 }
 
 .landscape__image:hover {
-  opacity: 30%;
+  opacity: 40%;
 }
 
 
 @media screen and (max-width: 1024px) {
   .landscape__image {
-    width: 101%;
+    width: 300px;
+    height: 225px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landscape__image {
+    width: 352px;
+    height: 264px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .landscape__image {
+    width: 288px;
+    height: 216px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .landscape__image {
-    width: 97%;
+    width: 288px;
+    height: 216px;
   }
   .landscape__image:hover {
     opacity: 100%;

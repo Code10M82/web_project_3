@@ -9,31 +9,54 @@
   line-height: 30px;
   align-self: flex-start;
   text-align: left;
-  margin-bottom: 5%;
+  margin-bottom: 5.5%;
+  width: 484px;
 }
 
 @media screen and (max-width: 1024px) {
   .places__paragraph {
-    width: 94.5%;
-    margin-top: 0;
-    margin-bottom: 5%;
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .places__paragraph {
+    width: 355px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .places__paragraph {
+    width: 352px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__paragraph {
-    width: 100%;
     font-size: 16px;
     line-height: 26px;
-    margin-top: 1.5%;
-    margin-bottom: 5.8%;
+    margin-bottom: 6.8%;
   }
 }
 
+@media screen and (max-width: 765px) {
+  .places__paragraph {
+    padding-bottom: 25%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .places__paragraph {
+    width: 288px;
+    margin-left: 4.3%;
+    padding-bottom: 0;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .places__paragraph {
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 4%;
+    width: 288px;
+    margin-left: 4.3%;
   }
 }

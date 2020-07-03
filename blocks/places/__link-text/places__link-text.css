@@ -4,16 +4,6 @@
   line-height: 12px;
   letter-spacing: 2px;
   margin: 0;
-  color: green;
-}
-
-@media screen and (max-width: 1024px) {
-  .places__link-text {
-    margin-top: 15%;
-  }
-  .places__link-text_theme-hamp{
-    margin-top: 29%;
-  }
 }
 
 @media screen and (max-width: 320px) {

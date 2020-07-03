@@ -1,25 +1,13 @@
 .places__link-container {
   grid-area: link;
   margin: 0;
-  margin-bottom: 1.2%;
-  border: 1px solid red;
-  width: 50%;
+  width: 456px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.places__link-container_spacing {
-  margin-bottom: 1.2%;
-}
-
-@media screen and (max-width: 768px) {
-  .places__link-container {
-    /* margin-top: 18%; */
-  }
-}
-
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 765px) {
   .places__link-container {
     display: none;
   }

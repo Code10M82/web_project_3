@@ -9,15 +9,16 @@
 @media screen and (max-width: 1024px) {
   .know__subtitle {
     margin-top: 3.2%;
-    width: 67.38%;
     margin-left: 1.6%;
+    width: 67.38%;
+    
   }
 }
 
 @media screen and (max-width: 768px) {
   .know__subtitle {
     width: 93.75%;
-    margin: 0;
+    margin-left: 0;
     margin-top: 4.3%;
   }
 }
