@@ -1,35 +1,15 @@
 .know__title {
   font-size: 54px;
   line-height: 58px;
-  width: 53.91%;
+  font-family: 'interblack', Arial, sans-serif;
   text-align: left;
-  letter-spacing: .5px;
-  margin: 0 0 0 2%;
   padding: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .know__title {
-    width: 67.38%;
-    word-spacing: -1px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .know__title {
-    margin: 0;
-    width: 93.75%;
-    word-spacing: normal;
-  }
+  margin: 0;
 }
 
 @media screen and (max-width: 320px) {
   .know__title {
     font-size: 32px;
     line-height: 35px;
-    width: 100%;
-    margin-top: 11.5%;
-    margin-left: 2.5%;
-    letter-spacing: .2px;
   }
 }

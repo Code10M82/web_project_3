@@ -1,17 +1,16 @@
 .intro__title {
   font-size: 96px;
   line-height: 100px;
+  font-family: 'interblack', Arial, sans-serif;
   width: 720px;
   text-align: center;
-  letter-spacing: 1.5px;
-  margin: 2.4% 0 0 0;
+  margin: 0;
   padding: 0;
-  word-spacing: -5px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro__title {
-    margin-top: 1.75%;
+    /* margin-top: 1.75%; */
   }
 }
 
@@ -33,9 +32,6 @@
 
 @media screen and (max-width: 320px) {
   .intro__title {
-    margin-top: 10.5%;
-    margin-left: 1.5%;
-    width: 292px;
-    letter-spacing: 1px;
+    width: 288px;
   }
 }

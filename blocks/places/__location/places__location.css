@@ -5,18 +5,17 @@
 @import url(../__location/_ohio/places__location_ohio.css);
 
 .places__location {
-  margin: 7.3% auto 0;
+  margin: 8% auto 0 11.5%;
   padding: 0;
   display: grid;
   grid-template-columns: 460px 484px;
-  /*does not work with %*/
   object-fit: contain;
   grid-template-rows: .5fr 2.5fr;
+  grid-gap: 7% 3.8%;
   grid-template-areas: 
     "heading link"
     "image text";
   width: 80%;
-  padding-left: 2.7%;
 }
 
 @media screen and (max-width: 1100px) {
@@ -30,9 +29,9 @@
   .places__location {
     width: 100%;
     grid-template-columns: 440px 456px;
-    margin-top: 6.3%;
+    grid-gap: 7.5% 3.2%;
+    margin-top: 7.5%;
     margin-left: 4.5%;
-    padding-left: 0;
   }
 }
 
@@ -52,7 +51,8 @@
 @media screen and (max-width: 768px) {
   .places__location {
     grid-template-columns: 340px 352px;
-    margin-top: 14%;
+    grid-gap: 9% 3.7%;
+    margin-top: 15%;
     margin-left: 3%;
   }
 }
@@ -85,12 +85,13 @@
 @media screen and (max-width: 320px) {
   .places__location {
     grid-template-columns: 320px;
-    margin-top: 44%;
+    margin-top: 54%;
     grid-template-areas: 
       "heading"
       "image"
       "text";
     margin-left: 0;
     padding: 0;
+    grid-gap: 3.5%;
   }
 }

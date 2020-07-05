@@ -3,13 +3,13 @@
   line-height: 36px;
   text-align: center;
   width: 620px;
-  margin-top: 2.5%;
+  margin-top: 2.2%;
 }
 
 
 @media screen and (max-width: 768px) {
   .intro__subtitle {
-    margin-top: 3.2%;
+    margin-top: 2.8%;
   }
 }
 
@@ -31,6 +31,6 @@
     width: 287px;
     font-size: 16px;
     line-height: 20px;
-    margin-top: 4.5%;
+    margin-top: 4.2%;
   }
 }

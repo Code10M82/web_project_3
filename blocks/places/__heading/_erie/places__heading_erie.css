@@ -1,9 +1,0 @@
-.places__heading_erie {
-  letter-spacing: 2.8px;
-}
-
-@media screen and (max-width: 768px) {
-  .places__heading_erie {
-    letter-spacing: 1.75px;
-  }
-}

@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>From Portland to Portland</title>
-  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" type="text/css" href="./pages/index.css">
 </head>
 <body class="body">
   <div class="page">
@@ -48,7 +48,7 @@
         <img src="./images/landscape__power-lines.png" class="landscape__image" alt="road with power lines">
       </section>
       <section class="places">
-        <div class="places__location" id="places__location_maine">
+        <div class="places__location">
           <h3 class="places__heading">Maine</h3>
           <img src="./images/maine.png" class="places__image" alt="lighthouse on a rocky cliff">
           <div class="places__link-container">
@@ -57,11 +57,11 @@
           </div>
           <div class="places__text-container">
             <p class="places__paragraph">Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss. As your journey is going to be a long one, you had best be prepared for an arduous trek.</p>
-            <p class="places__paragraph" id="places__paragraph_small">Thankfully, not only is Maine home to the very first European settlers on US territory in the era of Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from for your 3-month expedition. </p>
-            <p class="places__paragraph" id="places__paragraph_small">Average cost: $80-100.</p>
+            <p class="places__paragraph">Thankfully, not only is Maine home to the very first European settlers on US territory in the era of Vikings, but is also home to L.L. Bean, which is a great company to grab a super sturdy backpack from for your 3-month expedition. </p>
+            <p class="places__paragraph">Average cost: $80-100.</p>
           </div>
         </div>
-        <div class="places__location" id="places__location_new-hamp">
+        <div class="places__location">
           <h3 class="places__heading">New Hampshire</h3>
           <img src="./images/new-hampshire.png" class="places__image" alt="river flowing through a fall valley">
           <div class="places__link-container">
@@ -74,8 +74,8 @@
             <p class="places__paragraph">Average cost: $100-150.</p>
           </div>
         </div>
-        <div class="places__location" id="places__location_new-york">
-          <h3 class="places__heading" id="places__heading_new-york">New York</h3>
+        <div class="places__location">
+          <h3 class="places__heading">New York</h3>
           <img src="./images/new-york.png" class="places__image" alt="street view down middle of a new york city street">
           <div class="places__link-container">
             <p class="places__link-text">URL</p>
@@ -83,23 +83,23 @@
           </div>
           <div class="places__text-container">
             <p class="places__paragraph">Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to the world&#8209famous General Electric Company.</p>
-            <p class="places__paragraph" id="places__paragraph_small">This is where modern power generators were born as well as contemporary means of transmitting energy. So we figured this would be the perfect place to find a batteryless dynamo light for your bicycle to help you see through those dark lonely roads on your adventure. Such a light from GE will set you back about $10&#8209$20.</p>
+            <p class="places__paragraph">This is where modern power generators were born as well as contemporary means of transmitting energy. So we figured this would be the perfect place to find a batteryless dynamo light for your bicycle to help you see through those dark lonely roads on your adventure. Such a light from GE will set you back about $10&#8209$20.</p>
           </div>
         </div>
-        <div class="places__location" id="places__location_erie">
-          <h3 class="places__heading places__heading_erie">Erie,PA</h3>
+        <div class="places__location">
+          <h3 class="places__heading">Erie,PA</h3>
           <img src="./images/erie.png" class="places__image" alt="watermill hidden in the forrest">
           <div class="places__link-container">
             <p class="places__link-text">URL</p>
             <a href="https://www.fws.gov/refuge/erie" class="places__link">www.fws.gov</a>
           </div>
           <div class="places__text-container">
-            <p class="places__paragraph" id="places__paragraph_erie">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is another town worth passing through for several different reasons. While it might be most famously known as the scene of the Gettysburg address delivered by Mr. Lincoln during the Civil war, Pennsylvania also has produced a rather decent&#8209sized Amish community  (eerie, huh?)</p>
-            <p class="places__paragraph" id="places__paragraph_erie">The reason we've brought you here today, if you haven't already guessed, can be summed up by using one delicious word: chocolate. Hershey's is a Pennsylvania&#8209based company. Most likely, one of the tastiest missions you'll ever embark on during this tour, try to find an Amish friend and enjoy a bar in the National Wildlife Refuge on your way to Erie and have an extra eerie time!</p>
-            <p class="places__paragraph" id="places__paragraph_erie">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
+            <p class="places__paragraph">Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is another town worth passing through for several different reasons. While it might be most famously known as the scene of the Gettysburg address delivered by Mr. Lincoln during the Civil war, Pennsylvania also has produced a rather decent&#8209sized Amish community  (eerie, huh?)</p>
+            <p class="places__paragraph">The reason we've brought you here today, if you haven't already guessed, can be summed up by using one delicious word: chocolate. Hershey's is a Pennsylvania&#8209based company. Most likely, one of the tastiest missions you'll ever embark on during this tour, try to find an Amish friend and enjoy a bar in the National Wildlife Refuge on your way to Erie and have an extra eerie time!</p>
+            <p class="places__paragraph">The current cost of a Hershey's Chocolate bar: about 60¢.</p>
           </div>
         </div>
-        <div class="places__location" id="places__location_ohio">
+        <div class="places__location">
           <h3 class="places__heading">Ohio</h3>
           <img src="./images/ohio.png" class="places__image" alt="lone windmill in an open flat area">
           <div class="places__link-container">
@@ -112,11 +112,11 @@
           </div>
         </div>
       </section>
-      <section class="route">
-        <img src="./images/route66.png" class="route__image" alt="route 66 road">
+      <a class="route" href="#">
+        <span class="route__hover"></span>
         <h2 class="route__heading">Historic Route 66</h2>
         <p class="route__subheading">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
-      </section>
+      </a>
     </main>
     <footer class="footer">
       <div class="footer__column-links">
