@@ -2,7 +2,8 @@
   font-size: 18px;
   line-height: 22px;
   color: #fff;
-  margin-top: 2.5%;
+  margin-top: 2%;
+  width: 33%;
 }
 
 .places__link:hover {

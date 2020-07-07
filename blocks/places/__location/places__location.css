@@ -5,13 +5,13 @@
 @import url(../__location/_ohio/places__location_ohio.css);
 
 .places__location {
-  margin: 8% auto 0 11.5%;
+  margin: 7.9% auto 0 11.6%;
   padding: 0;
   display: grid;
   grid-template-columns: 460px 484px;
   object-fit: contain;
   grid-template-rows: .5fr 2.5fr;
-  grid-gap: 7% 3.8%;
+  grid-gap: 7.5% 4%;
   grid-template-areas: 
     "heading link"
     "image text";

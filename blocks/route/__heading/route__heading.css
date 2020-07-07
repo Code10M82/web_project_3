@@ -1,10 +1,9 @@
 .route__heading {
   font-size: 72px;
   line-height: 76px;
-  font-family: 'interblack', Arial, sans-serif;
-  margin: auto auto 2% auto;
+  margin: 24.4% auto 0;
   width: 656px;
-  font-weight: bold;
+  font-weight: 900;
   z-index: 2;
 }
 
