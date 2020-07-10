@@ -23,6 +23,10 @@
   .header__language:first-of-type {
     margin-right: 22%;
   }
+
+  .header__language:hover {
+    opacity: 100%;
+  }
 }
 
 @media screen and (max-width: 320px) {

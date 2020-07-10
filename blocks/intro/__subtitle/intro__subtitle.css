@@ -4,12 +4,25 @@
   text-align: center;
   width: 620px;
   margin-top: 2.5%;
+  margin-bottom: 0;
 }
 
+@media screen and (max-width: 1279px) {
+  .intro__subtitle {
+    width: 62%
+  }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .intro__subtitle {
     margin-top: 2.8%;
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__subtitle {
+    width: 62%;
   }
 }
 
@@ -17,6 +30,13 @@
   .intro__subtitle {
     font-size: 30px;
     line-height: 36px;
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__subtitle {
+    width: 62%;
   }
 }
 

@@ -15,7 +15,8 @@
   position: relative;
   background-image: url(../../images/route66.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
   text-decoration: none;
   color: #fff;
 }
@@ -25,6 +26,7 @@
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    height: 90vh;
   }
 }
 
@@ -35,16 +37,58 @@
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .route {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .route {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .route {
+    height: 70vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .route {
-    margin-top: 16%;
+    margin-top: 17.5%;
     height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .route {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .route {
+    height: 55vh;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .route {
+    height: 45vh;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .route {
+    height: 35vh;
   }
 }
 
 @media screen and (max-width: 320px) {
   .route {
     height: 200px;
-    margin-top: 33.5%;
+    margin-top: 39%;
   }
 }

@@ -1,0 +1,22 @@
+.landscape__image-container {
+  width: 22.1875%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1024px) {
+  .landscape__image-container {
+    width: 29.3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landscape__image-container {
+    width: 45.84%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .landscape__image-container {
+    width: 90%;
+  }
+}

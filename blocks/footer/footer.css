@@ -19,7 +19,8 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 11% 0 2.5% 2.8%;
+    margin: 11% 0 4.3% 0;
+    padding-bottom: 15px;
   }
 }
 
@@ -33,5 +34,6 @@
     text-align: left;
     margin-top: 20%;
     margin-left: 4.5%;
+    padding-bottom: 2%;
   }
 }

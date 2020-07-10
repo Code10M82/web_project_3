@@ -1,9 +1,11 @@
 .places__image {
-  grid-area: image;
-  margin: 0;
-  padding: 0;
-  object-fit: contain;
-  width: 460px;
+ width: 100%;
+ max-width: 460px;
+ min-width: 440px;
+ grid-area: image;
+ margin: 0 auto;
+ padding: 0;
+ object-fit: contain;
 }
 
 .places__image:hover {
@@ -12,13 +14,8 @@
 
 @media screen and (max-width: 1024px) {
   .places__image {
-    width: 440px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .places__image {
-    width: 350px;
+    max-width: 440px;
+    min-width: 340px;
   }
 }
 
@@ -26,14 +23,14 @@
   .places__image {
     width: 340px;
   }
+
+  .places__image:hover {
+    opacity: 100%;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .places__image {
-    width: 320px;
-  }
-
-  .places__image:hover {
-    opacity: 100%;
+    max-width: 320px;
   }
 }

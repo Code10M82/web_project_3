@@ -20,7 +20,6 @@
 
 @media screen and (max-width: 320px) {
   .know__info {
-    margin-top: 13%;
-    letter-spacing: .2px;
+    margin-top: 12%;
   }
 }

@@ -8,25 +8,23 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .route__subheading {
-    margin-top: .5%;
+    margin-top: 3.5%;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 475px) {
   .route__subheading {
-    margin-top: 1.5%;
+    font-size: 14px;
+    line-height: 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .route__subheading {
-    font-size: 14px;
-    line-height: 16px;
     width: 250px;
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 25%;
+    margin-top: 5%;
+    margin-bottom: 15%;
   }
 }

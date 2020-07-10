@@ -6,30 +6,31 @@
 
 .know {
   display: flex;
-  width: 690px;
-  margin: 6.8% auto 0 11.6%;
+  width: 53.91%;
+  margin: 7.8% auto 0 11.6%;
   flex-direction: column;
 }
 
 @media screen and (max-width: 1024px) {
   .know {
     margin-left: 4.65%;
-    margin-top: 8.7%;
+    margin-top: 9.5%;
+    width: 67.38%; 
   }
 }
 
 @media screen and (max-width: 768px) {
   .know {
-    margin-top: 11%;
+    margin-top: 12.4%;
     margin-left: 3%;
-    width: 720px;
+    width: 93.75%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .know {
-    margin-top: 18.5%;
+    margin-top: 21.3%;
     margin-left: 5%;
-    width: 288px;
+    width: 90%;
   }
 }

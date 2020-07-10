@@ -3,15 +3,18 @@
   line-height: 22px;
   color: #fff;
   margin-top: 2%;
-  width: 33%;
 }
 
 .places__link:hover {
   opacity: 60%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .places__link {
-    display: none;
+    margin-top: 3%;
+    padding-bottom: 1%;
+  }
+  .places__link:hover {
+    opacity: 100%;
   }
 }

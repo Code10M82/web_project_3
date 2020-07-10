@@ -1,97 +1,85 @@
-@import url(../__location/_maine/places__location_maine.css);
-@import url(../__location/_new-hamp/places__location_new-hamp.css);
-@import url(../__location/_new-york/places__location_new-york.css);
-@import url(../__location/_erie/places__location_erie.css);
-@import url(../__location/_ohio/places__location_ohio.css);
-
 .places__location {
-  margin: 7.9% auto 0 11.6%;
+  margin: 8.3% auto 0;
   padding: 0;
   display: grid;
   grid-template-columns: 460px 484px;
   object-fit: contain;
   grid-template-rows: .5fr 2.5fr;
-  grid-gap: 7.5% 4%;
+  grid-gap: 6% 3.8%;
   grid-template-areas: 
     "heading link"
     "image text";
   width: 80%;
+  padding-left: 3%;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1279px) {
   .places__location {
-    width: 100%;
-    margin-left: 2%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .places__location {
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .places__location {
-    width: 100%;
     grid-template-columns: 440px 456px;
-    grid-gap: 7.5% 3.2%;
-    margin-top: 7.5%;
-    margin-left: 4.5%;
+    grid-gap: 6% 3.2%;
+    margin-top: 11%;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1023px) {
   .places__location {
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 875px) {
   .places__location {
-    grid-template-columns: 340px 352px;
-    margin-left: 0;
+    width: 95%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__location {
+    grid-gap: 8% 3%;
     grid-template-columns: 340px 352px;
-    grid-gap: 9% 3.7%;
-    margin-top: 15%;
-    margin-left: 3%;
+    padding-left: .6%;
+    margin-top: 6.5%;
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 767px) {
   .places__location {
-    grid-template-columns: 320px;
-    margin-top: 44%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .places__location {
     grid-template-areas: 
-      "heading"
-      "image"
-      "text";
-    margin-left: 25%; 
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  .places__location {
-    margin-left: 5%;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  .places__location {
-    margin: 0;
+    "heading"
+    "image"
+    "text";
+  grid-template-columns: 1fr;
+  grid-gap: 3%;
+  padding-left: 0;
+  width: 100%;
+  margin: auto;
+  padding-top: 20%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .places__location {
-    grid-template-columns: 320px;
-    margin-top: 54%;
-    grid-template-areas: 
-      "heading"
-      "image"
-      "text";
-    margin-left: 0;
+    margin-top: 26%;
+    width: 100%;
     padding: 0;
-    grid-gap: 3.5%;
   }
 }
