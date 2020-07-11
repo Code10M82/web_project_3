@@ -1,3 +1,4 @@
+@import url(../route/__link/route__link.css);
 @import url(../route/__hover/route__hover.css);
 @import url(../route/__heading/route__heading.css);
 @import url(../route/__subheading/route__subheading.css);
@@ -6,9 +7,8 @@
 .route {
   width: 1184px;
   height: 740px;
-  margin: 10.1% auto 0 3.8%;
+  margin: 10.1% auto 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -17,16 +17,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  text-decoration: none;
-  color: #fff;
 }
 
 @media screen and (max-width: 1230px) {
   .route {
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    height: 90vh;
+    height: 70vh;
   }
 }
 
@@ -39,19 +35,7 @@
 
 @media screen and (max-width: 1023px) {
   .route {
-    height: 90vh;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .route {
-    height: 80vh;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .route {
-    height: 70vh;
+    height: 60vh;
   }
 }
 
@@ -64,29 +48,17 @@
 
 @media screen and (max-width: 767px) {
   .route {
-    height: 65vh;
+    height: 50vh;
   }
 }
 
 @media screen and (max-width: 690px) {
   .route {
-    height: 55vh;
+    height: 25vh;
   }
 }
 
-@media screen and (max-width: 590px) {
-  .route {
-    height: 45vh;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .route {
-    height: 35vh;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .route {
     height: 200px;
     margin-top: 39%;

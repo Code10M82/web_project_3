@@ -21,7 +21,8 @@
 
 @media screen and (max-width: 768px) {
   .places__image {
-    width: 340px;
+    max-width: 340px;
+    min-width: 320px;
   }
 
   .places__image:hover {
@@ -32,5 +33,6 @@
 @media screen and (max-width: 320px) {
   .places__image {
     max-width: 320px;
+    min-width: 320px;
   }
 }

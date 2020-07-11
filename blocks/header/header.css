@@ -1,27 +1,32 @@
 @import url(../header/__logo/header__logo.css);
 @import url(../header/__languages/header__languages.css);
 @import url(../header/__language/header__language.css);
-@import url(../header/__language/_underscore/header__language_underscore.css);
+@import url(../header/__language/__active/header__language_active.css);
 
 .header {
   display: flex;
-  flex-direction: row-reverse;
-  width: 78%;
+  width: 76.875%;
   justify-content: space-between;
-  margin: auto;
-  margin-top: 2.5%;
+  margin: 2.5% auto;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin-top: 2.5%;
-    width: 100%;
+    width: 90.625%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-top: 3.5%;
+    width: 94%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
     margin-top: 3.3%;
+    width: 90%;
   }
 }
 

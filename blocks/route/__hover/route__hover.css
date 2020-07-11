@@ -16,8 +16,7 @@
 
 @media screen and (max-width: 1230px) {
   .route__hover {
-    width: 100%;
-    height: 90vh;
+    height: 70vh;
   }
 }
 
@@ -27,21 +26,9 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .route__hover {
-    height: 90vh;
-  }
-}
-
-@media screen and (max-width: 950px) {
-  .route__hover {
-    height: 80vh;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  .route__hover {
-    height: 70vh;
+    height: 60vh;
   }
 }
 
@@ -57,29 +44,17 @@
 
 @media screen and (max-width: 767px) {
   .route__hover {
-    height: 65vh;
+    height: 50vh;
   }
 }
 
 @media screen and (max-width: 690px) {
   .route__hover {
-    height: 55vh;
+    height: 25vh;
   }
 }
 
-@media screen and (max-width: 590px) {
-  .route__hover {
-    height: 45vh;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  .route__hover {
-    height: 35vh;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .route__hover {
     height: 200px;
   }

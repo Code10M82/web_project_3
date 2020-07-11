@@ -7,23 +7,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .landscape__image {
-    width: 352px;
-  }
-
   .landscape__image:hover {
     opacity: 100%;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .landscape__image {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .landscape__image {
-    width: 288px;
   }
 }

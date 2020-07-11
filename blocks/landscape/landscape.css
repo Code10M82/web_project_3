@@ -1,50 +1,33 @@
-@import url(../landscape/__image-container/landscape__image-container.css);
 @import url(../landscape/__image/landscape__image.css);
 
 .landscape {
-  width: 90%;
+  width: 94%;
   display: grid;
   grid-gap: 2% 1.4%;
   margin: 7.3% auto 0;
-  grid-template-columns: repeat(4, 284px);
+  padding: 0;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   justify-content: center;
-}
-
-@media screen and (max-width: 1279px) {
-  .landscape {
-    grid-template-columns: repeat(4, 1fr);
-  }
+  align-self: center;
 }
 
 @media screen and (max-width: 1024px) {
   .landscape {
-    grid-template-columns: repeat(3, 300px);
-    margin: 9.1% auto 0;
-    grid-gap: 1.2% 1.5%;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .landscape {
-    grid-template-columns: repeat(3, 1fr);
+    margin-top: 9.1%;
+    grid-gap: 1.5% 1.5%;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .landscape {
-    grid-template-columns: repeat(2, 1fr);
     grid-gap: .7% 2%;
     margin-top: 11.6%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 0;
-    width: 90%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .landscape {
-    grid-template-columns: 1fr;
     grid-gap: .3%;
     margin-top: 20.5%;
   }

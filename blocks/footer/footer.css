@@ -4,23 +4,22 @@
 
 .footer {
   width: 93%;
-  margin: auto;
+  margin: 80px auto 15px;
   display: flex;
-  margin-top: 80px;
-  padding-bottom: 15px;
+  margin-top: 7%;
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
-    margin: 8.2% 0 0 4.8%;
-    padding-bottom: 22px;
+    margin-top: 8.2%;
+    margin-bottom: 22px;
+    width: 90%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 11% 0 4.3% 0;
-    padding-bottom: 15px;
+    margin: 11% auto 2% ;
   }
 }
 
@@ -31,9 +30,9 @@
       "links"
       "author";
     grid-template-columns: 1fr;
+    grid-gap: 5%;
     text-align: left;
     margin-top: 20%;
-    margin-left: 4.5%;
-    padding-bottom: 2%;
+    margin-bottom: 2%;
   }
 }
