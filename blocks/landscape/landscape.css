@@ -23,6 +23,7 @@
   .landscape {
     grid-gap: .7% 2%;
     margin-top: 11.6%;
+    width: 93.75%;
   }
 }
 
@@ -30,5 +31,6 @@
   .landscape {
     grid-gap: .3%;
     margin-top: 20.5%;
+    width: 90%;
   }
 }
